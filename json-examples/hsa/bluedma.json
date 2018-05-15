@@ -1,0 +1,19 @@
+[ {
+    "Job" : "Compose",
+    "Composition" : {
+      "Composition" : [ {
+        "Kernel" : "counter",
+        "Count" : 2
+      } ]
+    },
+    "Design Frequency" : 50,
+    "Implementation" : "Vivado",
+    "Platforms" : [ "vc709" ],
+    "Features" : [ {
+      "Feature" : "BlueDMA",
+      "Properties" : {
+        "enabled" : "true",
+        "Enabled" : "true"
+      }
+    } ]
+  } ]
