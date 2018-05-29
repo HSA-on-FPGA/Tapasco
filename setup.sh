@@ -14,7 +14,3 @@ echo "TAPASCO_HOME=$TAPASCO_HOME"
 export PATH=$TAPASCO_HOME/bin:$PATH
 export MANPATH=$MANPATH:$TAPASCO_HOME/man
 
-if [ "$DO_ATS" ]; then
-    echo "Activating ATS"
-    export MYVIVADO=$TAPASCO_HOME/xilinx_patches/vivadoPatchATS/vivado
-fi
